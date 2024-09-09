@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Developer Notes
+
+We created a social media app using Next.js, Shadcn, Prisma and Clerk for user management.
+
 ## Getting Started
 
 First, run the development server:
