@@ -11,7 +11,7 @@ const Stories = () => {
             alt="stories1"
             width={80}
             height={80}
-            className="rounded-full"
+            className="w-20 h-20 ring-2 rounded-full"
           />
           <span className="font-medium">monountin girl</span>
         </div>
@@ -22,7 +22,7 @@ const Stories = () => {
             alt="stories1"
             width={80}
             height={80}
-            className="rounded-full"
+            className="w-20 h-20 ring-2 rounded-full"
           />
           <span className="font-medium">monountin girl</span>
         </div>
@@ -32,7 +32,7 @@ const Stories = () => {
             alt="stories1"
             width={80}
             height={80}
-            className="rounded-full"
+            className="w-20 h-20 ring-2 rounded-full"
           />
           <span className="font-medium">monountin girl</span>
         </div>
@@ -42,7 +42,7 @@ const Stories = () => {
             alt="stories1"
             width={80}
             height={80}
-            className="rounded-full"
+            className="w-20 h-20 ring-2 rounded-full"
           />
           <span className="font-medium">monountin girl</span>
         </div>
@@ -52,7 +52,7 @@ const Stories = () => {
             alt="stories1"
             width={80}
             height={80}
-            className="rounded-full"
+            className="w-20 h-20 ring-2 rounded-full"
           />
           <span className="font-medium">monountin girl</span>
         </div>
@@ -62,7 +62,7 @@ const Stories = () => {
             alt="stories1"
             width={80}
             height={80}
-            className="rounded-full"
+            className="w-20 h-20 ring-2 rounded-full"
           />
           <span className="font-medium">monountin girl</span>
         </div>
@@ -72,7 +72,7 @@ const Stories = () => {
             alt="stories1"
             width={80}
             height={80}
-            className="rounded-full"
+            className="w-20 h-20 ring-2 rounded-full"
           />
           <span className="font-medium">monountin girl</span>
         </div>
