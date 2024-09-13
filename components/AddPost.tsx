@@ -15,7 +15,7 @@ const AddPost = () => {
           name="post"
           id=""
           placeholder="What is happening!!!"
-          className="bg-slate-100 rounded-lg flex-1"
+          className="bg-slate-100 rounded-lg flex-1 p-2"
         ></textarea>
         <Image
           src="/emoji.png"
@@ -25,7 +25,7 @@ const AddPost = () => {
           className="w-5 h-5 cursor-pointer self-end"
         />
       </div>
-      <div className="flex items-center gap-4 mt-4 text-gray-400">
+      <div className="flex items-center flex-wrap gap-4 mt-4 text-gray-400">
         <div className="flex flex-col gap-2 cursor-pointer">
           <Image src="/addImage.png" alt="add photo" width={20} height={20} />
           <span>photo</span>
@@ -38,6 +38,10 @@ const AddPost = () => {
         <div className="flex flex-col gap-2 cursor-pointer">
           <Image src="/addevent.png" alt="add photo" width={20} height={20} />
           <span>Event</span>
+        </div>
+        <div className="flex flex-col gap-2 cursor-pointer">
+          <Image src="/poll.png" alt="add event" width={20} height={20} />
+          <span>Poll</span>
         </div>
         <div className="self-end">
           <Button variant="outline">Add Post</Button>
