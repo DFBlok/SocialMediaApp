@@ -4,6 +4,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 We created a social media app using Next.js, Shadcn, Prisma and Clerk for user management.
 
+1. docker
+   docker run --name social-app -e POSTGRES_USER-myuser -e POSTGRES_DB =my_database -p 5434:5432 -d postgres
+
+dockerlink:
+
 ## Getting Started
 
 First, run the development server:
