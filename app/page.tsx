@@ -3,11 +3,14 @@ import Stories from "@/components/Stories";
 import Feed from "@/components/Feed";
 import AddPost from "@/components/AddPost";
 import RightMenu from "@/components/rightMenu/RightMenu";
+import LeftMenu from "@/components/leftMenu/LeftMenu";
 
 export default function Home() {
   return (
     <div className="p-6 font-[family-name:var(--font-geist-sans)] flex gap-6">
-      <div className="hidden xl:block w-[20%]">Left Section</div>
+      <div className="hidden xl:block w-[20%]">
+        <LeftMenu type="profile" />
+      </div>
       <div className="w-full lg:w-[70%] xl:w-[50%]">
         <div className="flex flex-col gap-6">
           <Stories />
